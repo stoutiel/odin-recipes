@@ -16,8 +16,22 @@ h1 {
 h2 {
     background-color: wheat;
     text-align: center;
+   
 }
 
+.introduction {
+    color:red;
+}
+
+.buttons {
+    background-color:darkgreen;
+}
+
+button {
+    color:darkkhaki;
+    font-size:18px;
+    font-weight:bold;
+}
 .container {
     width: 200px;
     height: 120px;
@@ -28,4 +42,11 @@ h2 {
 .container img {
     width: 100%;
     height: auto;
+}
+
+.buttons {
+    display:flex;
+    justify-content: center;
+    gap: 10%;
+    padding:10px;
 }
